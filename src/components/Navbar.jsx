@@ -39,6 +39,15 @@ const Navbar = () => {
         </div>
       </div>
 
+      <div className="md:flex hidden flex md:flex-row flex-col-reverse justify-between font-bold gap-6 bg-white p-4">
+        <span>
+          <Link to="/profile">Profile</Link>
+        </span>
+        <span>
+          <Link to="/sell-item">Sell-item</Link>
+        </span>
+      </div>
+
       <div className="sm:flex hidden flex-row justify-end gap-4">
         <CustomButton
           btnType="button"
