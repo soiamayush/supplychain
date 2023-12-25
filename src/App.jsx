@@ -11,7 +11,7 @@ import Register from "./pages/Register";
 const App = () => {
   return (
     <div className="relative sm:-8 bg-[#ddd0c8] flex flex-row ">
-      <div className="flex-1 max-sm:w-full max-w-[1280px] mx-auto min-h-screen">
+      <div className="flex-1 max-sm:w-full   min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
